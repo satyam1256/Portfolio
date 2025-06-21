@@ -1,342 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aswin M Kumar - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-text">Aswin M Kumar</span>
-            </div>
-            <div class="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#certificates" class="nav-link">Certificates</a>
-                <a href="#contact" class="nav-link">Contact</a>
-                <button class="theme-toggle" id="themeToggle">
-                    <span class="material-icons">light_mode</span>
-                </button>
-            </div>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">Aswin M Kumar</span>
         </div>
+        <div class="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#certificates" class="nav-link">Certificates</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <button class="theme-toggle" id="themeToggle">
+            <span class="material-icons">light_mode</span>
+          </button>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">
-                        Hi, I'm Aswin M Kumar
-                    </h1>
-                    <p class="hero-subtitle">Electrical & Electronics Engineering Student</p>
-                    <p class="hero-description">
-                        Passionate about harnessing technology to address global challenges through 
-                        innovative solutions in AI, IoT, and sustainable technologies.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View Projects</a>
-                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
-                    </div>
-                </div>
-                <!-- Image Placeholder Start -->
-                <div class="hero-image-placeholder" style="width:160px;height:160px;background:#e0e0e0;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:1.5rem auto;">
-                    <img src="asset/pfp.png" alt="Profile Picture" style="width:200px;height:200px;border-radius:50%;">
-                </div>
-                <!-- Image Placeholder End -->
-                <div class="hero-visual">
-                    <div class="floating-card">
-                        <div class="card-content">
-                            <span class="material-icons">engineering</span>
-                            <h3>EEE Student</h3>
-                            <p>3rd Year</p>
-                        </div>
-                    </div>
-                    <div class="floating-card">
-                        <div class="card-content">
-                            <span class="material-icons">psychology</span>
-                            <h3>AI/ML Enthusiast</h3>
-                            <p>Machine Learning & Data Science</p>
-                        </div>
-                    </div>
-                    <div class="floating-card">
-                        <div class="card-content">
-                            <span class="material-icons">devices_other</span>
-                            <h3>IoT Developer</h3>
-                            <p>ESP32, Arduino, Embedded Systems</p>
-                        </div>
-                    </div>
-                    <div class="floating-card">
-                        <div class="card-content">
-                            <span class="material-icons">recycling</span>
-                            <h3>Sustainability</h3>
-                            <p>Green Tech Projects</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">Hi, I'm Aswin M Kumar</h1>
+            <p class="hero-subtitle">
+              Electrical & Electronics Engineering Student
+            </p>
+            <p class="hero-description">
+              Passionate about harnessing technology to address global
+              challenges through innovative solutions in AI, IoT, and
+              sustainable technologies.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Get in Touch</a>
             </div>
+          </div>
+          <!-- Image Placeholder Start -->
+          <div
+            class="hero-image-placeholder"
+            style="
+              width: 160px;
+              height: 160px;
+              background: #e0e0e0;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin: 1.5rem auto;
+            "
+          >
+            <img
+              src="assets/pfp.png"
+              alt="Profile Picture"
+              style="
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                object-fit: cover;
+                box-shadow: 0 2px 8px #bbb;
+              "
+            />
+          </div>
+          <!-- Image Placeholder End -->
+          <div class="hero-visual">
+            <div class="floating-card">
+              <div class="card-content">
+                <span class="material-icons">engineering</span>
+                <h3>EEE Student</h3>
+                <p>3rd Year</p>
+              </div>
+            </div>
+            <div class="floating-card">
+              <div class="card-content">
+                <span class="material-icons">psychology</span>
+                <h3>AI/ML Enthusiast</h3>
+                <p>Machine Learning & Data Science</p>
+              </div>
+            </div>
+            <div class="floating-card">
+              <div class="card-content">
+                <span class="material-icons">devices_other</span>
+                <h3>IoT Developer</h3>
+                <p>ESP32, Arduino, Embedded Systems</p>
+              </div>
+            </div>
+            <div class="floating-card">
+              <div class="card-content">
+                <span class="material-icons">recycling</span>
+                <h3>Sustainability</h3>
+                <p>Green Tech Projects</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="scroll-indicator">
-            <span class="material-icons">keyboard_arrow_down</span>
-        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span class="material-icons">keyboard_arrow_down</span>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm an enthusiastic Electrical and Electronics Engineering student at the College of Engineering, Trivandrum, 
-                        with experiences in Circuit Design, C, Python, and Flutter. My passion lies in developing innovative solutions 
-                        that address real-world challenges through technology.
-                    </p>
-                    <p>
-                       I've worked on projects like <strong>Trash Nada</strong>, an AI-driven waste management system that was
-                        ranked among the top 10 at the Satwa National Hackathon. I'm interested in creating cross-platform applications,
-                        simulating hardware interactions, and applying machine learning to solve complex problems.
-                    </p>
-                    <p>
-                        Currently seeking internship or entry-level opportunities to contribute my technical skills and collaborative 
-                        spirit to pioneering projects while deepening my knowledge in embedded systems, IoT, and AI.
-                    </p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <h3>3rd</h3>
-                        <p>Year Student</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>5+</h3>
-                        <p>Projects</p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm an enthusiastic Electrical and Electronics Engineering student
+              at the College of Engineering, Trivandrum, with experiences in
+              Circuit Design, C, Python, and Flutter. My passion lies in
+              developing innovative solutions that address real-world challenges
+              through technology.
+            </p>
+            <p>
+              I've worked on projects like <strong>Trash Nada</strong>, an
+              AI-driven waste management system that was ranked among the top 10
+              at the Satwa National Hackathon. I'm interested in creating
+              cross-platform applications, simulating hardware interactions, and
+              applying machine learning to solve complex problems.
+            </p>
+            <p>
+              Currently seeking internship or entry-level opportunities to
+              contribute my technical skills and collaborative spirit to
+              pioneering projects while deepening my knowledge in embedded
+              systems, IoT, and AI.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <h3>3rd</h3>
+              <p>Year Student</p>
             </div>
+            <div class="stat-card">
+              <h3>5+</h3>
+              <p>Projects</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">C</span>
-                        <span class="skill-tag">Flutter</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Hardware & Design</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Circuit Design</span>
-                        <span class="skill-tag">PCB Design</span>
-                        <span class="skill-tag">KiCAD</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Software & Tools</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">MATLAB-SIMULINK</span>
-                        <span class="skill-tag">Signal Processing</span>
-                        <span class="skill-tag">Machine Learning</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Development</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Cross-platform Apps</span>
-                        <span class="skill-tag">UI Design</span>
-                        <span class="skill-tag">Data Analysis</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Security</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Cybersecurity</span>
-                        <span class="skill-tag">Threat Detection</span>
-                        <span class="skill-tag">Vulnerability Assessment</span>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Programming</h3>
+            <div class="skill-items">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">Flutter</span>
             </div>
+          </div>
+          <div class="skill-category">
+            <h3>Hardware & Design</h3>
+            <div class="skill-items">
+              <span class="skill-tag">Circuit Design</span>
+              <span class="skill-tag">PCB Design</span>
+              <span class="skill-tag">KiCAD</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Software & Tools</h3>
+            <div class="skill-items">
+              <span class="skill-tag">MATLAB-SIMULINK</span>
+              <span class="skill-tag">Signal Processing</span>
+              <span class="skill-tag">Machine Learning</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Development</h3>
+            <div class="skill-items">
+              <span class="skill-tag">Cross-platform Apps</span>
+              <span class="skill-tag">UI Design</span>
+              <span class="skill-tag">Data Analysis</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Security</h3>
+            <div class="skill-items">
+              <span class="skill-tag">Cybersecurity</span>
+              <span class="skill-tag">Threat Detection</span>
+              <span class="skill-tag">Vulnerability Assessment</span>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-icon">
-                        <span class="material-icons">recycling</span>
-                    </div>
-                    <h3>Trash Nada</h3>
-                    <p>AI-driven waste management system that ranked among the top 10 at the Satwa National Hackathon. 
-                       Utilizes machine learning algorithms to optimize waste sorting and disposal processes.</p>
-                    <div class="project-tags">
-                        <span class="tag">AI/ML</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">Sustainability</span>
-                    </div>
-                    <div class="project-links" style="margin-top: 1rem;">
-                        <a href="https://drive.google.com/drive/folders/19JhuGT66JVEsUgpoyN4sNFAIDtkcsEpi?usp=drive_link" 
-                           class="btn btn-secondary" target="_blank">
-                            View Demo & Presentation
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-icon">
-                        <span class="material-icons">electrical_services</span>
-                    </div>
-                    <h3>Optocoupler Circuit & Audio Amplifier</h3>
-                    <p>Designed and implemented an optocoupler circuit and a simple audio amplifier using LM386 
-                       for efficient signal processing and audio enhancement applications.</p>
-                    <div class="project-tags">
-                        <span class="tag">Circuit Design</span>
-                        <span class="tag">Signal Processing</span>
-                        <span class="tag">Hardware</span>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-icon">
-                        <span class="material-icons">mic</span>
-                    </div>
-                    <h3>Voice-Activated Switch</h3>
-                    <p>Developed an intelligent voice-activated switch using ESP32 microcontroller, 
-                       integrating advanced speech recognition capabilities for seamless home automation control.</p>
-                    <div class="project-tags">
-                        <span class="tag">ESP32</span>
-                        <span class="tag">IoT</span>
-                        <span class="tag">Voice Recognition</span>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-icon">
-                        <span class="material-icons">videogame_asset</span>
-                    </div>
-                    <h3>Gesture-Based Game Control</h3>
-                    <p>Created an innovative game control system using Arduino and OpenCV computer vision, 
-                       enabling intuitive gesture-based interactions for enhanced gaming experiences.</p>
-                    <div class="project-tags">
-                        <span class="tag">Arduino</span>
-                        <span class="tag">OpenCV</span>
-                        <span class="tag">Computer Vision</span>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-icon">
+              <span class="material-icons">recycling</span>
             </div>
-            <div class="coming-soon">
-                <p>More exciting projects coming soon...</p>
+            <h3>Trash Nada</h3>
+            <p>
+              AI-driven waste management system that ranked among the top 10 at
+              the Satwa National Hackathon. Utilizes machine learning algorithms
+              to optimize waste sorting and disposal processes.
+            </p>
+            <div class="project-tags">
+              <span class="tag">AI/ML</span>
+              <span class="tag">Python</span>
+              <span class="tag">Sustainability</span>
             </div>
+            <div class="project-links" style="margin-top: 1rem">
+              <a
+                href="https://drive.google.com/drive/folders/19JhuGT66JVEsUgpoyN4sNFAIDtkcsEpi?usp=drive_link"
+                class="btn btn-secondary"
+                target="_blank"
+              >
+                View Demo & Presentation
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <span class="material-icons">electrical_services</span>
+            </div>
+            <h3>Optocoupler Circuit & Audio Amplifier</h3>
+            <p>
+              Designed and implemented an optocoupler circuit and a simple audio
+              amplifier using LM386 for efficient signal processing and audio
+              enhancement applications.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Circuit Design</span>
+              <span class="tag">Signal Processing</span>
+              <span class="tag">Hardware</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <span class="material-icons">mic</span>
+            </div>
+            <h3>Voice-Activated Switch</h3>
+            <p>
+              Developed an intelligent voice-activated switch using ESP32
+              microcontroller, integrating advanced speech recognition
+              capabilities for seamless home automation control.
+            </p>
+            <div class="project-tags">
+              <span class="tag">ESP32</span>
+              <span class="tag">IoT</span>
+              <span class="tag">Voice Recognition</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <span class="material-icons">videogame_asset</span>
+            </div>
+            <h3>Gesture-Based Game Control</h3>
+            <p>
+              Created an innovative game control system using Arduino and OpenCV
+              computer vision, enabling intuitive gesture-based interactions for
+              enhanced gaming experiences.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Arduino</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">Computer Vision</span>
+            </div>
+          </div>
         </div>
+        <div class="coming-soon">
+          <p>More exciting projects coming soon...</p>
+        </div>
+      </div>
     </section>
 
     <!-- Certificates Section -->
     <section id="certificates" class="certificates">
-    <div class="container">
+      <div class="container">
         <h2 class="section-title">Certificates & Achievements</h2>
         <p class="section-description">
-            Explore my collection of certificates and achievements in technology, programming, and engineering. 
-            Each certification represents a milestone in my continuous learning journey and professional development.
+          Explore my collection of certificates and achievements in technology,
+          programming, and engineering. Each certification represents a
+          milestone in my continuous learning journey and professional
+          development.
         </p>
         <div class="certificates-placeholder">
-            <div class="placeholder-card">
-                <span class="material-icons">school</span>
-                <h3>Certificates Coming Soon</h3>
-                <p>Currently organizing my certifications for display</p>
-                <!-- Add this button/link below -->
-                <a href="https://drive.google.com/drive/folders/1yofOzfpxLo0rCVi3jeoOVbYobLBkz3Al?usp=drive_link" 
-                   class="btn btn-primary" target="_blank" style="margin-top:1.5rem; display:inline-block;">
-                    View Certificates
-                </a>
-            </div>
+          <div class="placeholder-card">
+            <span class="material-icons">school</span>
+            <h3>Certificates Coming Soon</h3>
+            <p>Currently organizing my certifications for display</p>
+            <!-- Add this button/link below -->
+            <a
+              href="https://drive.google.com/drive/folders/1yofOzfpxLo0rCVi3jeoOVbYobLBkz3Al?usp=drive_link"
+              class="btn btn-primary"
+              target="_blank"
+              style="margin-top: 1.5rem; display: inline-block"
+            >
+              View Certificates
+            </a>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="section-description">
-                I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!
-            </p>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <span class="material-icons">email</span>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:aswin2k03.mk@gmail.com">aswin2k03.mk@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="material-icons">work</span>
-                        <div>
-                            <h4>LinkedIn</h4>
-                            <a href="https://www.linkedin.com/in/aswinmkumar" target="_blank">linkedin.com/in/aswinmkumar</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="material-icons">code</span>
-                        <div>
-                            <h4>GitHub</h4>
-                            <a href="https://github.com/aswin-m-kumar" target="_blank">github.com/aswin-m-kumar</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="material-icons">photo_camera</span>
-                        <div>
-                            <h4>Instagram</h4>
-                            <a href="https://instagram.com/_aswin_m_kumar" target="_blank">@_aswin_m_kumar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-description">
+          I'm always open to discussing new opportunities, collaborations, or
+          just having a chat about technology!
+        </p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="material-icons">email</span>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:aswin2k03.mk@gmail.com"
+                  >aswin2k03.mk@gmail.com</a
+                >
+              </div>
             </div>
+            <div class="contact-item">
+              <!-- LinkedIn SVG Icon -->
+              <svg class="icon-linkedin" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.76-1.75 1.76zm13.5 10.29h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v4.72z"
+                />
+              </svg>
+              <div>
+                <h4>LinkedIn</h4>
+                <a
+                  href="https://www.linkedin.com/in/aswinmkumar"
+                  target="_blank"
+                  >linkedin.com/in/aswinmkumar</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <!-- GitHub SVG Icon -->
+              <svg class="icon-github" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.867 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.686-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.338 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.699 1.028 1.593 1.028 2.686 0 3.847-2.338 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .268.18.579.688.481C19.135 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"
+                />
+              </svg>
+              <div>
+                <h4>GitHub</h4>
+                <a
+                  href="https://github.com/aswin-m-kumar"
+                  target="_blank"
+                  >https://github.com/aswin-m-kumar</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <svg
+                class="icon-instagram"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.41a4.92 4.92 0 0 1 1.77 1.03 4.92 4.92 0 0 1 1.03 1.77c.17.46.354 1.26.41 2.43.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.41 2.43a4.92 4.92 0 0 1-1.03 1.77 4.92 4.92 0 0 1-1.77 1.03c-.46.17-1.26.354-2.43.41-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.41a4.92 4.92 0 0 1-1.77-1.03 4.92 4.92 0 0 1-1.03-1.77c-.17-.46-.354-1.26-.41-2.43C2.212 15.784 2.2 15.4 2.2 12.2s.012-3.584.07-4.85c.056-1.17.24-1.97.41-2.43a4.92 4.92 0 0 1 1.03-1.77 4.92 4.92 0 0 1 1.77-1.03c.46-.17 1.26-.354 2.43-.41C8.416 2.212 8.8 2.2 12 2.2zm0-2.2C8.736 0 8.332.013 7.052.072 5.77.13 4.77.31 4.01.54a7.07 7.07 0 0 0-2.56 1.64A7.07 7.07 0 0 0 .54 4.01c-.23.76-.41 1.76-.468 3.042C.013 8.332 0 8.736 0 12c0 3.264.013 3.668.072 4.948.058 1.282.238 2.282.468 3.042a7.07 7.07 0 0 0 1.64 2.56 7.07 7.07 0 0 0 2.56 1.64c.76.23 1.76.41 3.042.468C8.332 23.987 8.736 24 12 24s3.668-.013 4.948-.072c1.282-.058 2.282-.238 3.042-.468a7.07 7.07 0 0 0 2.56-1.64 7.07 7.07 0 0 0 1.64-2.56c.23-.76.41-1.76.468-3.042.059-1.28.072-1.684.072-4.948s-.013-3.668-.072-4.948c-.058-1.282-.238-2.282-.468-3.042a7.07 7.07 0 0 0-1.64-2.56A7.07 7.07 0 0 0 19.99.54c-.76-.23-1.76-.41-3.042-.468C15.668.013 15.264 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm7.844-10.406a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"
+                />
+              </svg>
+              <div>
+                <h4>Instagram</h4>
+                <a
+                  href="https://www.instagram.com/_aswin_m_kumar"
+                  target="_blank"
+                  >https://www.instagram.com/_aswin_m_kumar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Aswin M Kumar. Built with passion and code.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 Aswin M Kumar. Built with passion and code.</p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
