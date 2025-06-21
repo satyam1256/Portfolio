@@ -906,6 +906,112 @@ section {
   }
 }
 
+/* Extra Small Devices (max-width: 400px) */
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 1.3rem;
+  }
+  .section-title {
+    font-size: 1.3rem;
+  }
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .hero-image-placeholder img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+/* Small Devices (max-width: 600px) */
+@media (max-width: 600px) {
+  .hero-content {
+    gap: 1rem;
+  }
+  .hero-image-placeholder {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .hero-image-placeholder img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .floating-card {
+    padding: 1rem;
+  }
+  .card-content .material-icons {
+    font-size: 2rem;
+  }
+  .about-content,
+  .contact-grid {
+    gap: 1rem;
+  }
+  .stat-card {
+    padding: 1rem;
+  }
+  .project-card {
+    padding: 1rem;
+  }
+  .skills-grid,
+  .projects-grid {
+    gap: 1rem;
+  }
+  .placeholder-card {
+    padding: 1.5rem;
+  }
+}
+
+/* Ensure images and containers are responsive */
+img,
+.hero-image-placeholder,
+.project-icon,
+.card-content .material-icons {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.hero-image-placeholder {
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Prevent horizontal overflow */
+body {
+  overflow-x: hidden;
+}
+
+/* Make sure nav-menu covers the whole screen on mobile */
+@media (max-width: 768px) {
+  .nav-menu {
+    width: 100vw;
+    left: -100vw;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+}
+
+/* Adjust padding for all sections on small screens */
+@media (max-width: 600px) {
+  section {
+    padding: 2.5rem 0;
+  }
+  .container {
+    padding: 0 0.5rem;
+  }
+}
+
+/* Make footer text smaller on mobile */
+@media (max-width: 480px) {
+  .footer p {
+    font-size: 0.9rem;
+  }
+}
+
 /* Animation classes */
 .fade-in {
   opacity: 0;
