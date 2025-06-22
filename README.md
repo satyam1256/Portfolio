@@ -1,26 +1,42 @@
-# 🌐 Aswin M Kumar - Personal Portfolio Website
+# Satyam's Portfolio
 
-Welcome to the source code of my personal portfolio website!  
-This site serves as a showcase of my skills, projects, achievements, and passion for Electrical and Electronics Engineering, embedded systems, AI, and app development.
+A modern, responsive portfolio website to showcase my skills, projects, and achievements as a Mining Engineering undergraduate at IIT BHU, passionate about backend development, data analytics, and software engineering.
 
-🔗 Live Preview: [aswinmkumar](https://www.linkedin.com/in/aswinmkumar)
+## 🚀 Live Demo
 
-## 🧠 About This Website
-
-This is a fully responsive, animated, and interactive one-page portfolio built using **HTML**, **CSS**, and **JavaScript** — no external frameworks like React or Vue, just pure code with some futuristic flair 🚀.
+[View Portfolio Live](https://satyam1256.github.io/Portfolio/)
 
 ## ✨ Features
+- Animated hero section and smooth navigation
+- About, Skills, Projects, Achievements, and Contact sections
+- Responsive design for all devices
+- Project cards with live and GitHub links
+- Contact form and social links
 
-- ⚡ Animated hero section with typing effects and background particles
-- 🧾 Sections for About, Education, Experience, Skills, Achievements, and Projects
-- 📱 Fully responsive on mobile and tablets
-- 🔍 Smooth scroll, parallax, and hover interactions
-- 🛠️ Custom-built with love, no templates used
-- 📬 Contact section with direct links to LinkedIn, GitHub, Email, and Instagram
+## 🛠️ Tech Stack
+- HTML5, CSS3, JavaScript
+- Responsive design, custom CSS
 
-## 🔧 How to Use
+## 🧩 Main Projects
 
-1. **Download or Clone the Repo:**
+- [Spotfruit (Full Stack Music App)](https://github.com/satyam1256/Spotfruit)
+- [Credit Risk Modelling (ML Project)](https://github.com/satyam1256/Credit_Risk_Modelling)
+- [Disaster Response Platform (MERN, AI, Geospatial)](https://github.com/satyam1256/Disaster) | [Live Demo](https://disaster-frontend-six.vercel.app)
+
+## 🖥️ How to Run Locally
+
+1. Clone the repo:
    ```bash
-   git clone https://github.com/aswin-m-kumar/portfolio-website.git
-# Portfolio
+   git clone https://github.com/satyam1256/Portfolio.git
+   cd Portfolio
+   ```
+2. Open `index.html` in your browser.
+
+## 📫 Contact
+- Email: skititan0601@gmail.com
+- [GitHub Profile](https://github.com/satyam1256)
+- [LinkedIn](https://www.linkedin.com/in/satyam-868a12234/)
+
+---
+
+© 2025 Satyam. Built with passion and code.
