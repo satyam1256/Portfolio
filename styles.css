@@ -360,8 +360,17 @@ section { padding: 5rem 0; }
   .container, .nav-container, .hero-container { max-width: 1400px; }
 }
 @media (max-width: 900px) {
-  .hero-content { grid-template-columns: 1fr; gap: 2rem; text-align: center;}
-  .hero-visual { justify-content: center; margin-top: 2rem;}
+  .hero-content { 
+    grid-template-columns: 1fr; 
+    gap: 2rem; 
+    text-align: center;
+    flex-direction: column;
+  }
+  .hero-visual {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
 }
 @media (max-width: 768px) {
   .nav-menu {
@@ -377,6 +386,22 @@ section { padding: 5rem 0; }
   .hero-content, .about-content, .contact-grid { grid-template-columns: 1fr; gap: 2rem;}
   .hero-buttons { flex-direction: column; align-items: center;}
   .btn { width: 100%; max-width: 250px; justify-content: center;}
+  .projects-grid, .skills-grid {
+    grid-template-columns: 1fr;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+  .hero-visual {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    scrollbar-width: thin;
+  }
+  .floating-card {
+    min-width: 180px;
+    flex: 0 0 auto;
+  }
 }
 @media (max-width: 600px) {
   section { padding: 2.5rem 0;}
@@ -410,6 +435,20 @@ section { padding: 5rem 0; }
     text-align: center; flex: 0 0 auto;
   }
   .card-content h3, .card-content p { word-break: break-word; font-size: 0.95rem;}
+  .projects-grid, .skills-grid {
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+  .projects-grid::-webkit-scrollbar,
+  .skills-grid::-webkit-scrollbar {
+    height: 6px;
+    background: var(--scroll-track, #f1f5f9);
+  }
+  .projects-grid::-webkit-scrollbar-thumb,
+  .skills-grid::-webkit-scrollbar-thumb {
+    background: var(--scroll-thumb, #cbd5e1);
+    border-radius: 3px;
+  }
 }
 @media (max-width: 480px) {
   .container, .nav-container { padding: 0 1rem;}
@@ -426,6 +465,21 @@ section { padding: 5rem 0; }
 img, .hero-image-placeholder, .project-icon, .card-content .material-icons {
   max-width: 100%; height: auto; box-sizing: border-box;
 }
-.hero-image-placeholder { margin: 1rem auto; display: flex; align-items: center; justify-content: center; }
+.hero-image-placeholder { 
+  margin: 1rem auto; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 160px; 
+  height: 160px; 
+}
+.hero-image-placeholder img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 50%; 
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 2px 8px #bbb;
+}
 
 /* --- END --- */
